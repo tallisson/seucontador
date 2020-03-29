@@ -2,12 +2,10 @@
 <html lang="pt-br">
 <head>
   <meta charset="utf-8">
-  <title>Seu Contador Resolve</title>
-  <meta name="generator" content="WYSIWYG Web Builder 15 - http://www.wysiwygwebbuilder.com">
+  <title>Seu Contador Resolve</title>  
   <link href="novo_site_motta.css" rel="stylesheet">
   <link href="index.css" rel="stylesheet">
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -25,11 +23,18 @@
   </div>
 
 </header>
+<!-- -->
 
 <!-- Menu -->
 <div class="container-fluid menu">
   <nav class="navbar navbar-expand-lg navbar-dark">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button 
+      class="navbar-toggler" 
+      type="button" 
+      data-toggle="collapse" 
+      data-target="#navbarSupportedContent" 
+      aria-controls="navbarSupportedContent" 
+      aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
@@ -54,6 +59,7 @@
     </div>
   </nav>
 </div>
+<!-- -->
 
 <!-- Container -->
 <div class="container">     
@@ -74,28 +80,33 @@
       <div align="center" style="margin-top: 5px;">
         <button type="button" class="btn btn-primary center">Saiba Mais</button>
       </div>
-    </div>        
-  </div>
+    </div>
+  </div>        
+</div>
 
-  <footer>
-  </footer>
+<!-- Footer -->
+<footer>
+</footer>
+<!-- -->
 
-  <!-- Scripts -->
-  <script src="jquery-1.12.4.min.js"></script>
-  <script src="wb.canvas.min.js"></script>  
-  <script src="js/bootstrap.min.js"></script>
-  <script>
-    $(document).ready(function()
+<!-- Scripts -->
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="wb.canvas.min.js"></script>  
+<script src="js/bootstrap.min.js"></script>
+<script>
+  $(document).ready(function()
+  {
+    $("#Shape1").DrawRectangle(
     {
-      $("#Shape1").DrawRectangle(
-      {
-          width: 1300,
-          height: 242,
-          strokeStyle: '#245580',
-          lineWidth: 1,
-          fillStyle: '#000000'
-      });
+        width: 1300,
+        height: 242,
+        strokeStyle: '#245580',
+        lineWidth: 1,
+        fillStyle: '#000000'
     });
-  </script>
+  });
+</script>
+<!-- -->
 </body>
+
 </html>
