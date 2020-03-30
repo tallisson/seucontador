@@ -32,14 +32,14 @@ body
 }
 
 header {
-    background: rgb(0,123,255);
-    background: linear-gradient(30deg, rgba(0,123,255,1) 0%, rgba(40,230,69,1) 100%);
+    /*background: rgb(0,123,255);
+    background: linear-gradient(30deg, rgba(0,123,255,1) 0%, rgba(40,230,69,1) 100%);*/
     padding: 2px 12px;
     margin-bottom: 5px;
 }
 .menu {
-    background: rgb(0,123,255);
-    background: linear-gradient(30deg, rgba(0,123,255,1) 0%, rgba(40,230,69,1) 100%);
+    /*background: rgb(0,123,255);
+    background: linear-gradient(30deg, rgba(0,123,255,1) 0%, rgba(40,230,69,1) 100%);*/
     margin-bottom: 10px;
 }
 
@@ -71,8 +71,6 @@ header {
 }
 
 footer {
-    background: rgb(0,123,255);
-    background: linear-gradient(30deg, rgba(0,123,255,1) 0%, rgba(40,230,69,1) 100%);
     padding-bottom: 15px;
 }
 
