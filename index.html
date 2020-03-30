@@ -3,25 +3,46 @@
 <head>
   <meta charset="utf-8">
   <title>Seu Contador Resolve</title>  
-  <link href="novo_site_motta.css" rel="stylesheet">
-  <link href="index.css" rel="stylesheet">
+  <!--<link href="novo_site_motta.css" rel="stylesheet">-->
+  <link href="css/index.css" rel="stylesheet">
   <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <body>
 
 <!-- Header -->
-<header>
-
+<header>  
+  <div class="float-right">
+    <div class="social-network">
+      <a role="button" href="https://www.facebook.com" 
+          class="btn btn-secondary rounded-circle"
+          target="_blank"
+      >
+          <i class="fa fa-facebook"></i>
+      </a>
+      <a role="button" href="https://www.instagram.com"
+          class="btn btn-secondary rounded-circle"
+          target="_blank"
+      >
+          <i class="fa fa-instagram"></i>
+      </a>
+      <a role="button" href="https://plus.google.com/"
+          class="btn btn-secondary rounded-circle"
+          target="_blank"
+      >
+          <i class="fa fa-google-plus"></i>
+      </a>        
+    </div>
+  </div>
   <div class="logo">
     <img 
       src="images/logo_seu_Contador_Resolve.png" 
       alt="Seu Contador Resolve" 
       class="img-thumbnail" 
-      style="height: 30%; width: 30%">
+      style="height: 30%; width: 30%;">
     </img>
   </div>
-
 </header>
 <!-- -->
 
@@ -34,12 +55,14 @@
       data-toggle="collapse" 
       data-target="#navbarSupportedContent" 
       aria-controls="navbarSupportedContent" 
-      aria-expanded="false" aria-label="Toggle navigation">
+      aria-expanded="false" aria-label="Navegação"
+      id="toggle-menu"
+    >
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav  menu-nav">
         <li class="nav-item active">
           <a class="nav-link" href="#">Home</a>
         </li>
@@ -55,6 +78,12 @@
         <li class="nav-item active">
           <a class="nav-link" href="#">Contatos</a>
         </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Consultores</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Área do Cliente</a>
+        </li>
       </ul>
     </div>
   </nav>
@@ -65,11 +94,24 @@
 <div class="container">     
 
   <!-- video -->
-  <div class="embed-responsive embed-responsive-16by9">
+  <div class="embed-responsive embed-responsive-16by9" style="margin-bottom: 20px;">
       <video muted="" autoplay="" loop="" preload="auto" class="embed-responsive-item">
         <source src="http://www.boletimdoempresariodigital.com.br/novo_modelo/Jonisa-Contabilidade.mp4" type="video/mp4">
       </video>
   </div>
+
+  <!-- Apresentação -->
+  <div class="data-presentation card align-middle" align="center">
+    <div class="card-body">
+      <h3 class="card-title">Bem-vindo ao nosso site!</h4>
+      <h4 class="card-subtitle text-primary">No Seu Contador o foca está nas Inovações.</h4>
+      <p></p>
+      <h5 class="card-text text-dark"> Nós cuidamos de todos os procedimentos para que a sua Statup se torne uma empresa aberta e
+          funcionando regularmente de forma simples e rápida</p>
+    </div>
+    <h4></h3>
+  </div>
+  <!-- -->
 
   <!-- Banner 2 -->
   <div class="banner2" style="margin: 20px 2px;">
@@ -78,34 +120,74 @@
       <img src="images/banner_site2.jpg" alt="Mulheres Empreendedoras" class="img-fluid">
 
       <div align="center" style="margin-top: 5px;">
-        <button type="button" class="btn btn-primary center">Saiba Mais</button>
+        <a role="button" href="http://www.premiercursos.com.br/curso/alteracao-de-atos-societarios-na-pratica"
+           class="btn btn-danger center" target="_blank">Saiba Mais</a>
       </div>
     </div>
   </div>        
 </div>
 
 <!-- Footer -->
-<footer>
+<footer class="bg-primary text-light">
+  <div class="container">   
+    <div class="row">      
+      <div class="col-sm-6">        
+        <h4>
+          <i class="fa fa-map-marker"></i>
+          Localização:
+        </h4>
+        <div class="row">
+          <div class="col-sm-6">            
+            <div style="overflow:hidden;width: 500px;position: relative;">
+              <iframe width="270" 
+                  height="270" 
+                  src="https://maps.google.com/maps?width=500&amp;height=300&amp;hl=en&amp;q=Avenida%20Paulista%2C%201842+(Seu%20Contador%20Resolve)&amp;ie=UTF8&amp;t=&amp;z=11&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"></div>
+                  <style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
+            </div>
+          </div>
+          <div class="col-sm-5 pt-5">            
+            <p>Endereço:<p>
+            Avenida Paulista, 1842 - 17° andar <br>
+            Torre Norte - Bela Vista - São Paulo/SP<br> 
+            CEP: 01311-200</p>
+          </div>
+        </div>                      
+      </div>          
+
+      <div class="col-sm-1">        
+      </div>
+
+      <div class="col-sm-5 pt-4">
+        <div class="text-center">
+          <img 
+            src="images/logo_seu_Contador_Resolve.png" 
+            alt="Seu Contador Resolve"
+            class="img-fluid">
+          </img>
+        </div>
+        <p></p>
+        <div class="text-center">
+          <a role="button" href="https://web.whatsapp.com"
+            class="btn btn-secondary rounded-circle"  
+            target="_blank"
+            id="whats-link"
+          >
+              <i class="fa fa-whatsapp"></i>
+          </a>
+          <span>Contato: +55 (11) 99797-2623</span>
+          <p></p>
+          <p style="font-size: 80%">&copy; 2020 - Todos os direitos reservados</p>     
+        </div>
+      </div>
+    </div>
+  </div>
 </footer>
 <!-- -->
 
 <!-- Scripts -->
 <script src="js/jquery-1.12.4.min.js"></script>
-<script src="wb.canvas.min.js"></script>  
+<script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script>
-  $(document).ready(function()
-  {
-    $("#Shape1").DrawRectangle(
-    {
-        width: 1300,
-        height: 242,
-        strokeStyle: '#245580',
-        lineWidth: 1,
-        fillStyle: '#000000'
-    });
-  });
-</script>
 <!-- -->
 </body>
 
