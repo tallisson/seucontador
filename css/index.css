@@ -37,22 +37,9 @@ header {
     padding: 2px 12px;
     margin-bottom: 5px;
 }
-.menu {
-    /*background: rgb(0,123,255);
-    background: linear-gradient(30deg, rgba(0,123,255,1) 0%, rgba(40,230,69,1) 100%);*/
-    margin-bottom: 10px;
-}
-
 .menu-nav .nav-item:hover {
     background-color: #6c757d;
     margin-left: 0;
-}
-
-.banner2 {
-   background-color: transparent;
-   background-image: url("../images/img0069.png");
-   text-align: center;
-   padding: 10px 10px;
 }
 
 .banner2 span {
