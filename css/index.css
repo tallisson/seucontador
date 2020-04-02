@@ -61,3 +61,6 @@ footer .container > .row {
 #whats-link:hover {
     color: #28a745;
 }
+.partner-images img {
+    width: 50%;
+}
