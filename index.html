@@ -13,38 +13,39 @@
   <!-- Header -->
   <header class="bg-primary">  
     <div class="float-right social-network">
-      <a role="button" href="https://www.facebook.com" 
-          class="btn btn-success rounded-circle"
-          target="_blank"
-      >
-          <i class="fa fa-facebook"></i>
-      </a>
-      <a role="button" href="https://www.instagram.com"
-          class="btn btn-success rounded-circle"
-          target="_blank"
-      >
-          <i class="fa fa-instagram"></i>
-      </a>
-      <a role="button" href="https://plus.google.com/"
-          class="btn btn-success rounded-circle"
-          target="_blank"
-      >
-          <i class="fa fa-linkedin"></i>
-      </a>  
+      <section>
+        <a role="button" href="https://www.facebook.com" 
+            class="btn btn-success rounded-circle"
+            target="_blank"
+        >
+            <i class="fa fa-facebook"></i>
+        </a>
+        <a role="button" href="https://www.instagram.com"
+            class="btn btn-success rounded-circle"
+            target="_blank"
+        >
+            <i class="fa fa-instagram"></i>
+        </a>
+        <a role="button" href="https://plus.google.com/"
+            class="btn btn-success rounded-circle"
+            target="_blank"
+        >
+            <i class="fa fa-linkedin"></i>
+        </a>  
+      </section>
     </div>
 
     <div class="logo">
       <img 
         src="images/logo_seu_Contador_Resolve.png" 
         alt="Seu Contador Resolve" 
-        class="img-thumbnail" 
-        style="height: 30%; width: 30%;">
+        class="img-fluid">
       </img>
     </div>
   </header>
 
   <!-- Menu -->
-  <div class="container-fluid bg-primary mb-2">
+  <div class="bg-primary mb-2">
     <nav class="navbar navbar-expand-lg navbar-dark">
       <button 
         class="navbar-toggler" 
@@ -58,8 +59,8 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav  menu-nav">
+      <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
+        <ul class="navbar-nav menu-nav">
           <li class="nav-item active">
             <a class="nav-link" href="#">Home</a>
           </li>
@@ -91,20 +92,37 @@
 
     <!-- Apresentação -->
     <div class="data-presentation card my-1 pr-1" align="center">
-      <div class="row container-fluid">   
+      <div class="row">   
 
         <div class="card-body col-sm-6">
-          <h3 class="card-title">Bem-vindo!</h4>
-          <h4 class="card-subtitle text-primary">No Seu Contador o foco está nas Inovações.</h4>
-          <p></p>
-          <h6 class="card-text text-dark"> 
-            Nós cuidamos de todos os procedimentos para que a sua Startup se torne uma empresa aberta e
-            funcionando regularmente de forma simples e rápida
+          <h2 class="card-title">Bem-vindo!</h2>
+          <h4 class="card-subtitle text-primary pb-2">No Seu Contador o foco está nas Inovações e na Ajuda.</h4>
+          
+          <h6 class="card-text text-dark text-justify"> 
+            <!--Nós cuidamos de todos os procedimentos para que a sua Startup se torne uma empresa aberta e
+            funcionando regularmente de forma simples e rápida-->
+            Criamos um programa de apoio ao médio e pequeno empresário, com assessoria em três grandes áreas que julgamos ser importante para a retomada dos negócios:
           </h6>
+          <div>
+            <a role="button" href=""
+              class="btn btn-primary center mb-2">Contábil</a>
+            <a role="button" href=""
+            class="btn btn-primary center mb-2">Jurídica</a>
+            <a role="button" href=""
+            class="btn btn-primary center mb-2">Marketing</a>
+          </div>
+
+          <div class="pt-2">
+            <h6>
+                Como ficam as <strong>arrecadações federais</strong> frente a pandemia do COVID-19:                
+            </h6>
+            <a role="button" href=""
+              class="btn btn-danger center mb-2">Veja Aqui!</a>
+          </div>
         </div>
 
         <!-- video -->
-        <div class="embed-responsive embed-responsive-16by9 col-sm-6 px-2 py-2">
+        <div class="embed-responsive embed-responsive-16by9 col-sm-6 px- py-2">
             <video muted="" autoplay="" loop="" preload="auto" class="embed-responsive-item">
               <source src="http://www.boletimdoempresariodigital.com.br/novo_modelo/Jonisa-Contabilidade.mp4" type="video/mp4">
             </video>
@@ -116,7 +134,10 @@
     <!-- Parcerias de Sucesso -->
     <div id="partner" class="text-center card mx-2 my-2">
       <div class="card-title">
-        <h2>Nossos Parceiros:</h>
+        <h2>
+          <i class="fa fa-handshake-o" aria-hidden="true"></i>
+          Nossos Parceiros:
+        </h2>
       </div>
       <div class="card-text">
         <div class="partner-images row">
@@ -168,6 +189,9 @@
     <!-- Banner 3 -->
     <div class="my-2 px-2 text-center card">        
       <div class="my-2">
+        <h2 class="mt-2">
+          <i class="fa fa-cog pr-2"></i>Nossos Recursos:
+        </h2>
         <a href="#" targget="_blank">
             <img 
               class="img-thumbnail" 
@@ -177,10 +201,7 @@
         </a>
       </div>
       
-      <div class="mt-2 card-text">                  
-        <p class="mt-2">
-          <i class="fa fa-cog pr-2"></i>Nossos Recursos:
-        </p>
+      <div class="mt-2 card-text">                          
         <p>
           <span>
             <a href="cursos.html" type="button" class="btn btn-primary">Cursos</a>
@@ -216,14 +237,19 @@
           <span>CEP: 01311-200</span>
         </div>
         <a role="button" 
-          href="https://api.whatsapp.com/send?phone=5511997972623&text=Gostaria%20de%20mais%20informações"
+          href="https://wa.me/5511997972623?text"
           class="btn btn-primary rounded-circle"  
           target="_blank"
           id="whats-link"
         >
             <i class="fa fa-whatsapp"></i>
         </a>
-        <span>+55 (11) 99797-2623</span>           
+        <span>+55 (11) 99797-2623</span>
+        <a id="whatsapp-bubble" href="https://wa.me/5511997972623?text" 
+          style=" position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+          z-index:1000;" target="_blank">
+          <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+        </a>
       </div>
       <div id="copyright">
         <h6 class="small pt-3">

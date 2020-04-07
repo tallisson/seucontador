@@ -1,53 +1,28 @@
 @charset "utf-8";
-
-html, body
-{
-   height: 100%;
-}
-div#space
-{
-   width: 1px;
-   height: 50%;
-   margin-bottom: -1417px;
-   float:left
-}
-div#container
-{
-   width: 1300px;
-   height: 2834px;
-   margin: 0 auto;
-   position: relative;
-   clear: left;
-}
-body
-{
-   background-color: #FFFFFF;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   line-height: 1.1875;
-   margin: 0;
-   padding: 0;
-}
 header {
     /*background: rgb(0,123,255);
     background: linear-gradient(30deg, rgba(0,123,255,1) 0%, rgba(40,230,69,1) 100%);*/
     padding: 2px 12px;
     margin-bottom: 5px;
 }
+.menu-nav {
+    padding: 0;
+}
 .menu-nav .nav-item:hover {
-    background-color: #6c757d;
-    margin-left: 0;
+    width: 100%;
+    padding-left: 10px;
+    background-color: #6c757d;    
 }
 .banner2 span {
     color: white;
     font-size: 20px;
 }
-.social-network {                     
-    margin-top: 18px;
-    margin-right: 20px;
-    color: #fff;
+.social-network {  
+    height: inherit;     
+    color: #fff;   
+}
+.social-network section {
+    margin-top: 50%;
 }
 .social-network a:hover {
     color: #007bff;
@@ -63,4 +38,10 @@ footer .container > .row {
 }
 .partner-images img {
     width: 50%;
+}
+.logo img {
+    height: 160px; 
+    background-color:#fff;
+    border-radius: 6px;
+    max-width: 70%;
 }
