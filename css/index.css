@@ -44,3 +44,16 @@ footer .container > .row {
     border-radius: 6px;
     max-width: 70%;
 }
+@media (max-width: 480px) {
+    body {
+        font-size: 80%;
+    }
+    .logo {
+        width: 80%;
+    }
+    #resource-menu a {
+        display: inline-block;
+        margin-top: 2px;
+        text-align: center;
+    }
+}
