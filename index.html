@@ -11,7 +11,7 @@
 <body>
 
   <!-- Header -->
-  <header class="bg-primary">  
+  <header class="bg-primary">      
     <div class="float-right social-network">
       <section>
         <a role="button" href="https://www.facebook.com" 
@@ -26,7 +26,7 @@
         >
             <i class="fa fa-instagram"></i>
         </a>
-        <a role="button" href="https://plus.google.com/"
+        <a role="button" href="https://www.linkedin.com/"
             class="btn btn-success rounded-circle"
             target="_blank"
         >
@@ -47,6 +47,7 @@
   <!-- Menu -->
   <div class="bg-primary mb-2">
     <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="#" style="color: #212529">Home</a>
       <button 
         class="navbar-toggler" 
         type="button" 
@@ -62,25 +63,36 @@
       <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
         <ul class="navbar-nav menu-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="menu/quemsomos.html">Quem Somos?</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="menu/quem_somos.html">Quem Somos?</a>
+            <a class="nav-link" href="menu/atividades.html">Setores de Atividades</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="menu/setores.html">Setores de Atividades</a>
+            <a class="nav-link" href="menu/negocios.html">Oportunidades & Negócios</a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="menu/oportunidades.html">Oportunidades & Negócios</a>
-          </li>
-          <li class="nav-item active">
+          <!--<li class="nav-item active">
             <a class="nav-link" href="menu/contatos.html">Contatos</a>
-          </li>
+          </li>-->
           <li class="nav-item active">
             <a class="nav-link" href="menu/cad_consultores.html">Consultores</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="menu/area_cliente.html">Área do Cliente</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="menu/links.html">Links Úteis</a>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Recursos
+              </a>
+              <div class="dropdown-menu bg-info" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="recursos/cursos.html">Cursos</a>
+                  <a class="dropdown-item" href="recursos/livraria.html">Livraria</a>
+                  <a class="dropdown-item" href="recursos/anuncios.html">Anúncios</a>
+                  <a class="dropdown-item" href="recursos/franquias.html">Franquias</a>
+              </div>
           </li>
         </ul>
       </div>
@@ -117,7 +129,8 @@
                 Como ficam as <strong>arrecadações federais</strong> frente a pandemia do COVID-19:                
             </h6>
             <a role="button" href="covid19/arrecadacoes.html"
-              class="btn btn-danger center mb-2">Veja Aqui!</a>
+              class="btn btn-danger center mb-2">Veja Aqui!
+            </a>
           </div>
         </div>
 
@@ -142,25 +155,33 @@
       <div class="card-text">
         <div class="partner-images row">
           <div class="col-sm-3">
-            <img src="images/01_agro.png" alt="Agricultor do Sertão" class="img-fluid">            
+            <a href="parceiros/mercado-do-sertao.html" alt="Agricultor do Sertão">
+              <img src="images/01_agro.png" alt="Agricultor do Sertão" class="img-fluid">            
+            </a>
             <p>
                 <i class="fa fa-thumbs-up pr-1" aria-hidden="true"></i>Agricultor do Sertão
             </p>
           </div>
           <div class="col-sm-3">
-            <img src="images/compra_venda.png" alt="Compras e Vendas" class="img-fluid">
+            <a href="parceiros/mercado-do-sertao.html" alt="Agricultor do Sertão">
+              <img src="images/compra_venda.png" alt="Compras e Vendas" class="img-fluid">
+            </a>
             <p>
                 <i class="fa fa-shopping-cart pr-1"></i>Compras e Vendas
             </p>
           </div>
           <div class="col-sm-3">
-            <img src="images/anjo.png" alt="Investidor Anjo" class="img-fluid">
+            <a href="parceiros/investidor_anjo.html" alt="Agricultor do Sertão">
+              <img src="images/anjo.png" alt="Investidor Anjo" class="img-fluid">
+            </a>
             <p>
                 <i class="fa fa-angellist pr-1" aria-hidden="true"></i>Investidor Anjo
             </p>
           </div>
           <div class="col-sm-3">
-            <img src="images/precatorios.png" alt="Precatórios" class="img-fluid">
+            <a href="parceiros/precatorios.html" alt="Agricultor do Sertão">
+              <img src="images/precatorios.png" alt="Precatórios" class="img-fluid">
+            </a>
             <p>
                 <i class="fa fa-hourglass-half pr-1" aria-hidden="true"></i>Precatórios
             </p>
@@ -170,6 +191,9 @@
           Sabemos que agilidade aliada ao bom assessoramento é o que faz a diferença nos dias de hoje.            
         </h5>
         <h5 class="font-weight-bold">Venha formar uma parceria de sucesso!</h5>
+        <a role="button" href="parceiros/parceiros.html"
+              class="btn btn-primary center my-2">Veja todos os nosso parceiros!
+        </a>
       </div>
     </div>
 
