@@ -45,11 +45,11 @@ footer .container > .row {
     max-width: 70%;
 }
 @media (max-width: 480px) {
-    body {
-        font-size: 80%;
-    }
     .logo {
         width: 80%;
+    }
+    .bt-logo {
+        width: 120%;
     }
     #resource-menu a {
         display: inline-block;
