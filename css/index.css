@@ -44,12 +44,12 @@ footer .container > .row {
     border-radius: 6px;
     max-width: 70%;
 }
+#bt-logo {
+    width: 300px;
+}
 @media (max-width: 480px) {
     .logo {
         width: 80%;
-    }
-    .bt-logo {
-        width: 120%;
     }
     #resource-menu a {
         display: inline-block;
