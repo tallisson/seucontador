@@ -57,3 +57,14 @@ footer .container > .row {
         text-align: center;
     }
 }
+.page {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.site-content {
+    flex: 1;
+}
+#site-footer {
+    background-color: #000;
+}

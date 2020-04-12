@@ -9,30 +9,7 @@
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
-<body>
-  <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Seu Contador Resolve</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>         
-
-          <div class="modal-body">
-              <div>
-                Como ficam as <strong>arrecadações federais</strong> frente a pandemia do COVID-19?
-                <a href="covid19/arrecadacoes.html"
-                  class="center mb-2">Clique aqui para saber!
-                </a>                
-              </div>      
-          </div>
-        </div>
-    </div>
-  </div>
-
+<body class="page">    
   <!-- Header -->
   <header class="bg-primary">      
     <div class="float-right social-network">
@@ -123,180 +100,205 @@
   </div>
 
   <!-- Content -->
-  <section class="container-fluid" id="content">     
-    <!-- Apresentação -->
-    <div class="data-presentation card card-body my-1 pr-1" align="center">  
-      <!-- video -->
-      <div class="embed-responsive embed-responsive-16by9 col-sm-6 px- py-2">
-          <video muted="" autoplay="" loop="" preload="auto" class="embed-responsive-item">
-            <source src="./video.mp4" type="video/mp4">
-          </video>
+  <main class="site-content">
+    <div class="container-fluid">     
+      <!-- Apresentação -->
+      <div class="data-presentation card card-body my-1 pr-1" align="center">  
+        <!-- video -->
+        <div class="embed-responsive embed-responsive-16by9 col-sm-6 px- py-2">
+            <video muted="" autoplay="" loop="" preload="auto" class="embed-responsive-item">
+              <source src="./video.mp4" type="video/mp4">
+            </video>
+        </div>
       </div>
-    </div>
-          
-    <!-- Intro -->
-    <div class="card card-body text-center">
-      <h2 class="card-title">Bem-vindo!</h2>
-      <h4 class="card-subtitle text-primary pb-2">No Seu Contador o foco está nas Inovações e na Ajuda.</h4>
-      
-      <h5 class="card-text text-dark text-justify"> 
-        Criamos um programa de apoio ao médio e pequeno empresário, com assessoria em três grandes áreas que julgamos ser importante para a retomada dos negócios:
-      </h5>
-      <div>
-        <a role="button" href="acessoria/contabil.html"
-          class="btn btn-primary center mb-2">Contábil</a>
-        <a role="button" href="acessoria/juridica.html"
-        class="btn btn-primary center mb-2">Jurídica</a>
-        <a role="button" href="acessoria/marketing.html"
-        class="btn btn-primary center mb-2">Marketing</a>
-      </div>
-
-      <div class="pt-2">
-        <h5>
-            Como ficam as <strong>arrecadações federais</strong> frente a pandemia do COVID-19:                
+            
+      <!-- Intro -->
+      <div class="card card-body text-center">
+        <h2 class="card-title">Bem-vindo!</h2>
+        <h4 class="card-subtitle text-primary pb-2">No Seu Contador o foco está nas Inovações e na Ajuda.</h4>
+        
+        <h5 class="card-text text-dark text-justify"> 
+          Criamos um programa de apoio ao médio e pequeno empresário, com assessoria em três grandes áreas que julgamos ser importante para a retomada dos negócios:
         </h5>
-        <a role="button" href="covid19/arrecadacoes.html"
-          class="btn btn-danger center mb-2">Veja Aqui!
-        </a>
+        <div>
+          <a role="button" href="acessoria/contabil.html"
+            class="btn btn-primary center mb-2">Contábil</a>
+          <a role="button" href="acessoria/juridica.html"
+          class="btn btn-primary center mb-2">Jurídica</a>
+          <a role="button" href="acessoria/marketing.html"
+          class="btn btn-primary center mb-2">Marketing</a>
+        </div>
+
+        <div class="pt-2">
+          <h5>
+              Como ficam as <strong>arrecadações federais</strong> frente a pandemia do COVID-19:                
+          </h5>
+          <a role="button" href="covid19/arrecadacoes.html"
+            class="btn btn-danger center mb-2">Veja Aqui!
+          </a>
+        </div>
       </div>
+
+      <!-- Parcerias de Sucesso -->
+      <div id="partner" class="text-center card card-body my-2 px-2">
+        <div class="card-title">
+          <h2>
+            <i class="fa fa-handshake-o" aria-hidden="true"></i>
+            Nossos Parceiros:
+          </h2>
+        </div>
+        <div class="card-text">
+          <div class="partner-images row">
+            <div class="col-sm-3">
+              <a href="parceiros/mercado-do-sertao.html" alt="Agricultor do Sertão">
+                <img src="images/01_agro.png" alt="Agricultor do Sertão" class="img-fluid">            
+              </a>
+              <p>
+                  <i class="fa fa-thumbs-up pr-1" aria-hidden="true"></i>Agricultor do Sertão
+              </p>
+            </div>
+            <div class="col-sm-3">
+              <a href="parceiros/mercado-do-sertao.html" alt="Agricultor do Sertão">
+                <img src="images/compra_venda.png" alt="Compras e Vendas" class="img-fluid">
+              </a>
+              <p>
+                  <i class="fa fa-shopping-cart pr-1"></i>Compras e Vendas
+              </p>
+            </div>
+            <div class="col-sm-3">
+              <a href="parceiros/investidor_anjo.html" alt="Agricultor do Sertão">
+                <img src="images/anjo.png" alt="Investidor Anjo" class="img-fluid">
+              </a>
+              <p>
+                  <i class="fa fa-angellist pr-1" aria-hidden="true"></i>Investidor Anjo
+              </p>
+            </div>
+            <div class="col-sm-3">
+              <a href="parceiros/precatorios.html" alt="Agricultor do Sertão">
+                <img src="images/precatorios.png" alt="Precatórios" class="img-fluid">
+              </a>
+              <p>
+                  <i class="fa fa-hourglass-half pr-1" aria-hidden="true"></i>Precatórios
+              </p>
+            </div>
+          </div>
+          <h5 class="mt-3">
+            Sabemos que agilidade aliada ao bom assessoramento é o que faz a diferença nos dias de hoje.            
+          </h5>
+          <h5 class="font-weight-bold">Venha formar uma parceria de sucesso!</h5>
+          <a role="button" href="parceiros/parceiros.html"
+                class="btn btn-primary center my-2">Veja todos os nossos parceiros!
+          </a>
+        </div>
+      </div>
+
+      <!-- Banner 2 -->
+      <div class="banner2 my-2 bg-secondary text-center">
+        <div class="px-2">
+          <span>Está para acontecer:</span>
+          <img src="images/banner_site2.jpg" alt="Mulheres Empreendedoras" class="img-thumbnail">
+
+          <div align="center" style="margin-top: 5px;">
+            <a role="button" href="http://www.premiercursos.com.br/curso/alteracao-de-atos-societarios-na-pratica"
+              class="btn btn-danger center mb-2" target="_blank">Saiba Mais</a>
+          </div>
+        </div>
+      </div>        
+
+      <!-- Banner 3 -->
+      <div class="my-2 px-2 text-center card" id="banner-3">        
+        <div class="my-2">
+          <h2 class="mt-2">
+            <i class="fa fa-cog pr-2"></i>Nossos Recursos:
+          </h2>
+          <a href="#" targget="_blank">
+              <img 
+                class="img-thumbnail" 
+                src="images/banner_motorista_app.gif" 
+                alt="Banner 3"
+              >
+          </a>
+        </div>
+        
+        <div class="mt-2 card-text">                          
+          <div id="resource-menu">
+            <a href="recursos/cursos.html" type="button" class="btn btn-primary">Cursos</a>
+            <a href="recursos/livraria.html" type="button" class="btn btn-primary">Livraria</a>
+            <a href="recursos/anuncios.html" type="button" class="btn btn-primary">Anúncios</a>
+            <a href="recursos/franquias.html" type="button" class="btn btn-primary">Franquias</a>
+          </div>
+
+          <p class="mt-4">
+            Trabalhamos fornecendo todas as informações e suporte técnico aos departamentos já existentes na empresa, com visitas periódicas para verificações e acompanhamento, elaborando relatórios para a comunicação das divergências ou sugestões, além de fornecer respostas as consultas por telefone ou pessoalmente.
+          </p>
+        </div>
+      </div>  
     </div>
-
-    <!-- Parcerias de Sucesso -->
-    <div id="partner" class="text-center card card-body my-2 px-2">
-      <div class="card-title">
-        <h2>
-          <i class="fa fa-handshake-o" aria-hidden="true"></i>
-          Nossos Parceiros:
-        </h2>
-      </div>
-      <div class="card-text">
-        <div class="partner-images row">
-          <div class="col-sm-3">
-            <a href="parceiros/mercado-do-sertao.html" alt="Agricultor do Sertão">
-              <img src="images/01_agro.png" alt="Agricultor do Sertão" class="img-fluid">            
-            </a>
-            <p>
-                <i class="fa fa-thumbs-up pr-1" aria-hidden="true"></i>Agricultor do Sertão
-            </p>
-          </div>
-          <div class="col-sm-3">
-            <a href="parceiros/mercado-do-sertao.html" alt="Agricultor do Sertão">
-              <img src="images/compra_venda.png" alt="Compras e Vendas" class="img-fluid">
-            </a>
-            <p>
-                <i class="fa fa-shopping-cart pr-1"></i>Compras e Vendas
-            </p>
-          </div>
-          <div class="col-sm-3">
-            <a href="parceiros/investidor_anjo.html" alt="Agricultor do Sertão">
-              <img src="images/anjo.png" alt="Investidor Anjo" class="img-fluid">
-            </a>
-            <p>
-                <i class="fa fa-angellist pr-1" aria-hidden="true"></i>Investidor Anjo
-            </p>
-          </div>
-          <div class="col-sm-3">
-            <a href="parceiros/precatorios.html" alt="Agricultor do Sertão">
-              <img src="images/precatorios.png" alt="Precatórios" class="img-fluid">
-            </a>
-            <p>
-                <i class="fa fa-hourglass-half pr-1" aria-hidden="true"></i>Precatórios
-            </p>
-          </div>
-        </div>
-        <h5 class="mt-3">
-          Sabemos que agilidade aliada ao bom assessoramento é o que faz a diferença nos dias de hoje.            
-        </h5>
-        <h5 class="font-weight-bold">Venha formar uma parceria de sucesso!</h5>
-        <a role="button" href="parceiros/parceiros.html"
-              class="btn btn-primary center my-2">Veja todos os nossos parceiros!
-        </a>
-      </div>
-    </div>
-
-    <!-- Banner 2 -->
-    <div class="banner2 my-2 bg-secondary text-center">
-      <div class="px-2">
-        <span>Está para acontecer:</span>
-        <img src="images/banner_site2.jpg" alt="Mulheres Empreendedoras" class="img-thumbnail">
-
-        <div align="center" style="margin-top: 5px;">
-          <a role="button" href="http://www.premiercursos.com.br/curso/alteracao-de-atos-societarios-na-pratica"
-            class="btn btn-danger center mb-2" target="_blank">Saiba Mais</a>
-        </div>
-      </div>
-    </div>        
-
-    <!-- Banner 3 -->
-    <div class="my-2 px-2 text-center card">        
-      <div class="my-2">
-        <h2 class="mt-2">
-          <i class="fa fa-cog pr-2"></i>Nossos Recursos:
-        </h2>
-        <a href="#" targget="_blank">
-            <img 
-              class="img-thumbnail" 
-              src="images/banner_motorista_app.gif" 
-              alt="Banner 3"
-            >
-        </a>
-      </div>
-      
-      <div class="mt-2 card-text">                          
-        <div id="resource-menu">
-          <a href="recursos/cursos.html" type="button" class="btn btn-primary">Cursos</a>
-          <a href="recursos/livraria.html" type="button" class="btn btn-primary">Livraria</a>
-          <a href="recursos/anuncios.html" type="button" class="btn btn-primary">Anúncios</a>
-          <a href="recursos/franquias.html" type="button" class="btn btn-primary">Franquias</a>
-        </div>
-
-        <p class="mt-4">
-          Trabalhamos fornecendo todas as informações e suporte técnico aos departamentos já existentes na empresa, com visitas periódicas para verificações e acompanhamento, elaborando relatórios para a comunicação das divergências ou sugestões, além de fornecer respostas as consultas por telefone ou pessoalmente.
-        </p>
-      </div>
-    </div>  
-  </section>
+  </main>
 
   <!-- Footer -->
-  <footer class="text-light text-center navbar-fixed-bottom" style="background-color: #000">
-      <div class="container pt-2" id="bt-logo">
-        <img 
-          src="images/logo_seu_Contador_Resolve.png" 
-          alt="Seu Contador Resolve"
-          class="img-fluid"
-        >
-      </div>
-      <p></p>
-      <div>
-        <div class="mb-2">
-          <span class="fa fa-map-marker"></span>
-          <span> Avenida Paulista, 1842 - 17° andar, Torre Norte - Bela Vista</span> <br>
-          <span>São Paulo/SP<span>
-          <span>CEP: 01311-200</span>
-        </div>
-        <a role="button" 
-          href="https://wa.me/5511997972623?text"
-          class="btn btn-primary rounded-circle"  
-          target="_blank"
-          id="whats-link"
-        >
-            <i class="fa fa-whatsapp"></i>
-        </a>
-        <span>+55 (11) 99797-2623</span>        
-      </div>
-      <div id="copyright">
-        <h6 class="small pt-3">
-          &copy; Seu Contador Resolve - 2020 - Todos os direitos reservados
-        </h6>
-      </div>
+  <footer class="text-light text-center" id="site-footer">
+    <div class="py-2 mx-auto" id="bt-logo">
+      <img 
+        src="images/logo_seu_Contador_Resolve.png" 
+        alt="Seu Contador Resolve"
+        class="img-fluid"
+      >
     </div>
-  </footer>
+    
+    <div>
+      <div class="mb-2">
+        <span class="fa fa-map-marker"></span>
+        <span> Avenida Paulista, 1842 - 17° andar, Torre Norte - Bela Vista</span> <br>
+        <span>São Paulo/SP<span>
+        <span>CEP: 01311-200</span>
+      </div>
+      <a role="button" 
+        href="https://wa.me/5511997972623?text"
+        class="btn btn-primary rounded-circle"  
+        target="_blank"
+        id="whats-link"
+      >
+          <i class="fa fa-whatsapp"></i>
+      </a>
+      <span>+55 (11) 99797-2623</span>        
+    </div>
+    <div id="copyright">
+      <h6 class="small pt-3">
+        &copy; Seu Contador Resolve - 2020 - Todos os direitos reservados
+      </h6>
+    </div>
+  </footer>  
 
+  <!-- Deep Link Zap -->
   <a id="whatsapp-bubble" href="https://wa.me/5511997972623?text" 
     style=" position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
     z-index:1000;" target="_blank">
     <i style="margin-top:16px" class="fa fa-whatsapp"></i>
   </a>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Seu Contador Resolve</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>         
+
+          <div class="modal-body">
+              <div>
+                Como ficam as <strong>arrecadações federais</strong> frente a pandemia do COVID-19?
+                <a href="covid19/arrecadacoes.html"
+                  class="center mb-2">Clique aqui para saber!
+                </a>                
+              </div>      
+          </div>
+        </div>
+    </div>
+  </div>
 
   <!-- Scripts -->
   <script src="js/jquery-1.12.4.min.js" type="text/javascript"></script>
